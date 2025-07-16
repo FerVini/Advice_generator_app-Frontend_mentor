@@ -40,6 +40,7 @@ main {
     border-radius: 10px;
     max-width: 600px;
     padding: 20px;
+    padding-bottom: 0;
 }
 
 span {
@@ -68,10 +69,11 @@ button {
     align-items: center;
     border-radius: 35px;
     position: relative;
-    bottom: -50px;
+    bottom: -30px;
     cursor: pointer;
     width: 60px;
     height: 60px;
+    transition: all ease-in-out 0.2s;
 }
 
 button:hover {
